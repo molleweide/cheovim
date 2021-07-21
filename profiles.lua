@@ -31,7 +31,7 @@ local profiles = {
             preconfigure = "packer",
         }
     },
-    doom_nvim = { "~/.config/nvim.config/doom-nvim", {
+    doom_nvim = { "~/.config/nvim.config/doom", {
             plugins = "packer",
             preconfigure = "doom-nvim"
         }
