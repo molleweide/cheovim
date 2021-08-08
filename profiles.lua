@@ -26,22 +26,27 @@ local profiles = {
 
     More in-depth information can be found in cheovim's README on GitHub.
     --]]
-    molleweide = { "~/.config/nvim.config/molleweide", {
+    molleweide = { "~/.config/molleweide-nvim", {
             plugins = "packer",
             preconfigure = "packer",
         }
     },
-    doom_nvim = { "~/.config/nvim.config/doom", {
+    doom = { "~/.config/doom-nvim", {
             plugins = "packer",
             preconfigure = "doom-nvim"
         }
     },
-    neovhy = { "~/.config/nvim.config/neovhy", {
+    chad = { "~/.config/chad-nvim", {
             plugins = "packer",
-            preconfigure = "neovhy",
+            preconfigure = "packer",
+        }
+    },
+    neovhy = { "~/.config/neovhy-nvim", {
+            plugins = "packer",
+            preconfigure = "packer",
         }
     },
 }
 
 -- return <name_of_config>, <list_of_profiles>
-return "molleweide", profiles
+return "doom", profiles
